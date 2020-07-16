@@ -2,7 +2,7 @@ import React from 'react';
 import TodoList from './todo/todolist'
 import Context from './context'
 import AddTodo from './todo/addtodo'
-// import Modal from './modal/modal'
+
 
 function App() {
   const [todos, setTodos] = React.useState([])
